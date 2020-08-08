@@ -13,6 +13,7 @@ const router = new Router({
 router
     .get('/',(ctx, next)=>{
         ctx.body="hello world";
+      //  console.log(next);
     })
     .get('/todo',(ctx,next)=>{
         ctx.body="todo page";
