@@ -6,4 +6,4 @@ app.use(async(ctx)=>{
 })
 
 app.listen(3000);
-console.log('app is starting in 3000 port');
+console.log('app is starting in 3000 port index');
